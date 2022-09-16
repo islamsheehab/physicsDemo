@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    
+    background:linear-gradient(RGB(30,30,30),RGB(28,28,28),RGB(30,30,30));
+  }
+  canvas {
+    display: block;
+  }
+  
+  h1{
+    text-align:center;
+    color:white;
+    text-decoration:underline;
+  }
+  
+  form{
+   color:white;
+  }
+  
+  div{
+   float:auto
+    
+  }
+  
+  .material-icons{
+    background:white; 
+    width:40px;
+    height:35px;
+  }

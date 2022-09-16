@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <!-- ok-->
+    
+    <script src="stars.js"></script>
+    <script src="asteroid.js"></script>
+    <script src="mouse_handler.js"></script>
+    <script src="sketch.js"></script>
+    
+    <ul><h1>Physics Simulator</h1></ul>
+    
+    <div id="sketch-holder"></div>
+    <br>
+    <!--<button class="material-icons">pause</button>-->
+    <form> 
+      <input type="radio" id="pan-mode" name="pan">Pan Mode
+      <input type="radio" id="place-mode" name="pan" value="true">Spawn Mode <br>
+      <input type="range" min="0" max="1000" id ="star-count">  Stars (0 to 1000)<br>
+      <input type="range" min="1" max="50" id ="delta">  Delta <br>
+      <input type="range" min="0" max="1000" id ="grav">  Gravity Strength<br>
+      <input type="range" min="1" max="100" value="1" id ="thiccness">  Thiccness<br>
+      <input type="range" min="0" max="100" value="1" id ="thicc_ofst">  Linear Thiccness<br>
+      <input type="range" min="10" max="10000" id ="swing" value ="50">  Swing factor<br>
+      <input type="range" min="100" max="100000" id ="mass" value = "100">  Init mass<br>
+      <input type="range" min="10" max="500" id ="asteroids" value = "10">  Asteroid Count<br>
+    </form>
+  </body>
+</html>
